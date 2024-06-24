@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Submission</title>
+</head>
+<body>
+    <h2>Submit Your Data</h2>
+    <form action="submit.php" method="post" enctype="multipart/form-data">
+      
+    <div class="contact-left-title">
+        <h2>PCMB Doubt Solving Form</h2>
+        <hr>
+        </div>
+      
+        <input type="text" name="name" placeholder="Name" class="name" required>
+        <input type="email" name="email" placeholder="Email" class="name" required>
+     <select class="name" name="batch">
+        <option value="HSC_25" selected>HSC_25</option>
+        <option value="HSC_26">HSC_26</option>
+
+
+     </select>
+     <input type="file" name="file" placeholder="Pic(If needed)" accept="image/*"  class="name">
+     
+
+
+        <textarea  name="comment" placeholder="Your Problem" class="name" required></textarea>
+        <button type="submit">Submit <img src="assets/arrow_icon.png"></button>
+        <button type="reset">Select Again</button>
+
+    </form>
+</body>
+</html>
